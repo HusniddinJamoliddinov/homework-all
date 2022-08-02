@@ -36,7 +36,7 @@ class Tasbex extends Component {
         <div className="wrapper d-flex flex-column align-items-center ">
         <div onClick={this.handleIncrement} className="renderZone d-flex flex-column align-items-center justify-content-center" >
           <h3 className="countValue">{this.state.count}</h3>
-          <h3 className="countName">Counter</h3>
+          <h3 className="countName">COUNTER</h3>
         </div>
 
         <div className="btnGroup">
