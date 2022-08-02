@@ -1,10 +1,10 @@
 import './App.css';
-import Calculator from "./components/calculator";
+import Tasbex from "./components/tasbex/tasbex";
 
 function App() {
   return (
     <div className="App">
-      <Calculator/>
+      <Tasbex/>
     </div>
   );
 }
