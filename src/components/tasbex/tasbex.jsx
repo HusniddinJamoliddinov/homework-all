@@ -47,7 +47,7 @@ class Tasbex extends Component {
             Increment
           </button>
           <button onClick={this.handleReset} className="resetBtn btn">
-            ReseT
+            Reset
           </button>
         </div>
       </div>
