@@ -1,5 +1,5 @@
 import './App.css';
-import Tasbex from "./components/tasbex";
+import Tasbex from "./components/tasbex/tasbex";
 
 function App() {
   return (
