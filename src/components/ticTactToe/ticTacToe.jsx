@@ -42,10 +42,13 @@ const TicTacToe = () => {
           setWinner(squares[pattern[0]]);
           if(squares[pattern[0]]==="X"){
             setXCount(XCount + 1);
+            return;
           }else if(squares[pattern[0]]==="O"){
             setOCount(TieCount + 1);
+            return;
           }else{
-            setTieCount(OCount + 1)
+            setTieCount(OCount + 1);
+            return;
           }
         }
       });
